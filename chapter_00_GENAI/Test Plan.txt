@@ -1,0 +1,138 @@
+================================================================================
+                            TEST PLAN - VWO.COM
+================================================================================
+
+OBJECTIVE
+================================================================================
+Validate VWO.com functionality as an enterprise CRO platform by ensuring core 
+experimentation, targeting, analytics, role-based access, and user flows perform 
+reliably across supported browsers and devices while meeting security, usability, 
+and data integrity requirements.
+
+
+SCOPE
+================================================================================
+Include end-to-end validation of VWO core modules: authentication, experiment 
+creation, variation management, audience targeting, test launch/stop workflows, 
+reporting dashboards, user roles, and basic API/status handling. 
+
+Exclude: non-product third-party integrations, back-end data warehouse validation 
+beyond UI data consistency, and deep infrastructure/performance tuning outside 
+defined staging environments.
+
+
+INCLUSIONS
+================================================================================
+- Login and authentication workflows
+- Experiment/A-B test creation, editing, and deletion
+- Variation setup and preview
+- Audience segmentation and targeting rules
+- Test lifecycle management (start, pause, stop)
+- Result dashboards, conversion reporting, and status codes
+- Role-based access control: admin, editor, viewer
+- Boundary and negative validation for form fields and UI behavior
+- Compatibility across desktop browsers and device emulation
+- Regression and exploratory coverage for UI interactions
+
+
+TEST ENVIRONMENTS
+================================================================================
+Browsers: Chrome latest, Firefox latest, Edge latest, Safari latest
+OS: Windows 11, macOS 13
+Devices: desktop viewport, tablet/mobile viewport emulation
+Network: normal, slow 3G, offline validation for error handling
+Test Systems: staging VWO application, secure test accounts
+Tools: BrowserStack / local browser grid, Jira / test management tool, 
+       console/network logging
+
+
+DEFECT REPORTING PROCEDURE
+================================================================================
+- Log defects in Jira with reproducible steps, environment, severity, priority, 
+  screenshots, and console/network capture
+- Use standard severity levels: Critical, High, Medium, Low
+- Verify reproducibility before logging
+- Assign to development with component/tagging and link to test case
+- Include actual vs expected results and any relevant data
+- Update defect status through lifecycle: Open > In Progress > Fixed > Retest > Closed
+
+
+TEST STRATEGY
+================================================================================
+- Functional testing for each user flow and feature
+- Regression testing for prior release test cases
+- UI validation for page flow, button/text behavior, form validation
+- Data validation for experiment and result display
+- Negative testing for invalid inputs, unauthorized access, missing values
+- Boundary testing for field limits and maximum variation counts
+- Role-based access verification for admin/editor/viewer behavior
+- Exploratory testing to uncover edge cases in experiment setup
+
+
+TEST SCHEDULE
+================================================================================
+- Planning & review: Day 1
+- Test design & case creation: Days 2–3
+- Environment setup & sanity testing: Day 4
+- Functional execution: Days 5–8
+- Regression execution: Days 9–10
+- Defect triage & retest: Days 11–12
+- Closure & reporting: Day 13
+
+
+TEST DELIVERABLES
+================================================================================
+- Test Plan document
+- Test Case workbook
+- Execution status report
+- Defect log
+- Regression summary
+- Test closure report
+
+
+ENTRY AND EXIT CRITERIA
+================================================================================
+
+Entry Criteria:
+- PRD and templates available
+- Test environments configured
+- Test accounts created
+- Application build deployed to staging
+- Required test data and access credentials available
+
+Exit Criteria:
+- All planned test cases executed or formally deferred
+- All critical/high defects resolved or accepted
+- Regression pass rate meets threshold
+- Test summary report completed
+- Release recommendation documented
+
+
+TEST EXECUTION
+================================================================================
+- Execute test cases based on scenario sequence
+- Record pass/fail status and evidence
+- Log defects for failed cases with full reproduction
+- Retest fixed defects and verify resolution
+- Perform regression on impacted flows
+
+
+TEST CLOSURE
+================================================================================
+- Review execution metrics and defect trends
+- Confirm all entry/exit criteria met
+- Document open issues, risk areas, and recommendations
+- Archive test artifacts and update stakeholders
+
+
+TOOLS
+================================================================================
+- Jira for defect management
+- Test management tool or spreadsheet for test cases
+- BrowserStack / local browser for cross-browser testing
+- Postman for API/status validation
+- Screen capture and logging tools for evidence
+
+================================================================================
+End of Test Plan
+================================================================================

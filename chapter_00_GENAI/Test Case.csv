@@ -1,0 +1,83 @@
+Scenario TID,Test Case ID,Test Case Description,Test Steps,Status,Comments
+TS-01,TC-01.1,Verify valid login succeeds for authorized user,"1. Navigate to VWO login page
+2. Enter valid email
+3. Enter valid password
+4. Click Sign in",Pass,Login successful
+TS-01,TC-01.2,Verify login fails with invalid password,"1. Navigate to login page
+2. Enter valid email
+3. Enter invalid password
+4. Click Sign in",Pass,Error message displayed
+TS-01,TC-01.3,Verify forgot password flow initiates reset email,"1. Navigate to login page
+2. Click Forgot Password
+3. Enter registered email
+4. Submit request",Pass,Reset email sent
+TS-02,TC-02.1,Verify new A/B experiment can be created with valid name and URL,"1. Login
+2. Navigate to Testing module
+3. Click Create New Test
+4. Enter valid experiment name
+5. Enter valid URL
+6. Save",Pass,Experiment created successfully
+TS-02,TC-02.2,Verify validation error appears when experiment name is blank,"1. Login
+2. Create new experiment
+3. Leave name blank
+4. Enter valid URL
+5. Save",Pass,Validation error shown
+TS-02,TC-02.3,Verify invalid URL is rejected during experiment creation,"1. Login
+2. Create new experiment
+3. Enter valid name
+4. Enter malformed URL
+5. Save",Pass,URL validation error shown
+TS-02,TC-02.4,Verify maximum number of variations can be added and boundary enforced,"1. Login
+2. Create experiment
+3. Add variations until max limit
+4. Attempt additional variation",Pass,Boundary enforced
+TS-03,TC-03.1,Verify audience targeting by browser type applies correctly,"1. Open experiment
+2. Navigate to targeting
+3. Add browser rule
+4. Save
+5. Confirm rule present",Pass,Browser targeting applied
+TS-03,TC-03.2,Verify country segmentation works for selected region,"1. Open experiment
+2. Add country filter
+3. Save
+4. Validate filter in summary",Pass,Country filter applied
+TS-03,TC-03.3,Verify invalid audience criteria input is rejected,"1. Open targeting settings
+2. Enter invalid rule value
+3. Save",Pass,Validation error shown
+TS-04,TC-04.1,Verify variation can be added to an experiment,"1. Open existing experiment
+2. Add new variation
+3. Enter valid variation name
+4. Save",Pass,Variation added
+TS-04,TC-04.2,Verify variation preview displays expected content,"1. Open variation settings
+2. Click Preview
+3. Confirm preview loads",Pass,Preview displayed
+TS-04,TC-04.3,Verify variation deletion removes it from experiment setup,"1. Open experiment
+2. Delete variation
+3. Confirm removal",Pass,Variation removed
+TS-05,TC-05.1,Verify experiment can be started successfully,"1. Open created experiment
+2. Click Start/Run
+3. Confirm status changes to Running",Pass,Experiment started
+TS-05,TC-05.2,Verify experiment can be stopped/paused successfully,"1. Start experiment
+2. Click Stop/Pause
+3. Confirm status changes",Pass,Experiment stopped
+TS-05,TC-05.3,Verify experiment status reflects current lifecycle state,"1. View experiment list
+2. Confirm status label for Running, Paused, Draft",Pass,Status reflects correctly
+TS-06,TC-06.1,Verify experiment results dashboard displays experiment metrics,"1. Navigate to Reports
+2. Select active experiment
+3. Confirm metrics display",Pass,Metrics displayed
+TS-06,TC-06.2,Verify conversion count updates after valid event data,"1. Run experiment
+2. Generate test conversion event
+3. Confirm count increments",Pass,Conversion count updated
+TS-06,TC-06.3,Verify empty report state displays appropriate message when no data exists,"1. Open report for new experiment with no traffic
+2. Confirm no-data message",Pass,No-data message shown
+TS-07,TC-07.1,Verify admin user has full access to all experiment actions,"1. Login as admin
+2. Navigate experiments
+3. Verify create/edit/delete/start/stop privileges",Pass,Admin access granted
+TS-07,TC-07.2,Verify editor user can edit experiments but cannot perform admin-only actions,"1. Login as editor
+2. Open experiment
+3. Verify edit actions allowed, admin actions restricted",Pass,Editor privileges correct
+TS-07,TC-07.3,Verify viewer user can view experiment details only,"1. Login as viewer
+2. Open experiment
+3. Confirm edit controls unavailable",Pass,Viewer read-only access
+TS-07,TC-07.4,Verify guest or unknown role is denied access or redirected appropriately,"1. Login as guest/invalid role
+2. Attempt access
+3. Confirm access denied message",Pass,Access denied for guest
