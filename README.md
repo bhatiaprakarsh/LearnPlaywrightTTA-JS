@@ -20,6 +20,7 @@ All lessons include practical, executable examples that demonstrate key concepts
 
 - 27th June: Learned JavaScript operators and added practical examples for assignment, modulus, exponentiation, and comparison operators.
 - 9th July: Completed advanced operator topics (increment, decrement, ternary), control flow structures (if-else, switch statements), and user input handling.
+- 31st July: Added a `do...while` loop example to the learning path to demonstrate post-condition looping and guaranteed first execution.
 - Continued building hands-on practice files to strengthen understanding of core JavaScript concepts.
 
 ---
@@ -87,6 +88,11 @@ LearnPlaywrightTTA/
 │
 ├── chapter_09_User_Input/                # User input handling
 │   └── [Practical examples for reading user input]
+│
+├── chapter_10_Loops/                     # Loop statements and repetition
+│   ├── 63_ForLoop.js
+│   ├── 64_While_Loop.js
+│   └── 65_Do_While_Loop.js
 │
 ├── chapter_00_GENAI/                     # GenAI concepts introduction
 │   └── [Introduction to AI and machine learning concepts]
@@ -279,28 +285,29 @@ node chapter_04_JavaScript_Concepts/17_Hoisting_fn.js
 
 ### Chapter 6: Operators
 
-| File                           | Description                                                    |
-| ------------------------------ | -------------------------------------------------------------- |
-| `30_Operator.js`               | Overview of common JavaScript operators with examples          |
-| `31_Assignment_op.js`          | Assignment operators and shorthand assignment examples         |
-| `32_modulus.js`                | Modulus operator and remainder examples                        |
-| `33_expo..js`                  | Exponentiation operator examples                               |
-| `35_Comparision_OP.js`         | Comparison operators such as `==`, `===`, `>`, `<`, `>=`, `<=` |
-| `39_Logical_OP.js`             | Logical operators `&&`, `                                      |     | `, and `!` with truth table style examples |
-| `40_String_OP.js`              | String concatenation and string-related operator examples      |
-| `41_Ternary_OP.js`             | Ternary operator examples for short conditional logic          |
-| `42_TypeOf_OP.js`              | `typeof` operator examples for checking data types             |
-| `43_Increment_Decrement_OP.js` | Increment and decrement operator examples                      |
-| `44_Null_OP.js`                | `null` examples and how it differs from other falsy values     |
-| `45_Post_Increment.js`         | Post-increment operator behavior and examples                  |
-| `46_Pre_Increment.js`          | Pre-increment operator behavior and examples                   |
-| `47_Post_Decrement.js`         | Post-decrement operator behavior and examples                  |
-| `48_Pre_Decrement.js`          | Pre-decrement operator behavior and examples                   |
-| `49_Advance_Increment_Decrement.js` | Advanced increment/decrement patterns and use cases      |
+| File                                | Description                                                    |
+| ----------------------------------- | -------------------------------------------------------------- | --- | ------------------------------------------ |
+| `30_Operator.js`                    | Overview of common JavaScript operators with examples          |
+| `31_Assignment_op.js`               | Assignment operators and shorthand assignment examples         |
+| `32_modulus.js`                     | Modulus operator and remainder examples                        |
+| `33_expo..js`                       | Exponentiation operator examples                               |
+| `35_Comparision_OP.js`              | Comparison operators such as `==`, `===`, `>`, `<`, `>=`, `<=` |
+| `39_Logical_OP.js`                  | Logical operators `&&`, `                                      |     | `, and `!` with truth table style examples |
+| `40_String_OP.js`                   | String concatenation and string-related operator examples      |
+| `41_Ternary_OP.js`                  | Ternary operator examples for short conditional logic          |
+| `42_TypeOf_OP.js`                   | `typeof` operator examples for checking data types             |
+| `43_Increment_Decrement_OP.js`      | Increment and decrement operator examples                      |
+| `44_Null_OP.js`                     | `null` examples and how it differs from other falsy values     |
+| `45_Post_Increment.js`              | Post-increment operator behavior and examples                  |
+| `46_Pre_Increment.js`               | Pre-increment operator behavior and examples                   |
+| `47_Post_Decrement.js`              | Post-decrement operator behavior and examples                  |
+| `48_Pre_Decrement.js`               | Pre-decrement operator behavior and examples                   |
+| `49_Advance_Increment_Decrement.js` | Advanced increment/decrement patterns and use cases            |
 
 ### Chapter 7: Control Flow - If/Else
 
 Conditional statements for decision-making in code:
+
 - `if` statements - Execute code based on a condition
 - `if/else` - Provide alternative code paths
 - `if/else if/else` - Multiple conditions
@@ -309,6 +316,7 @@ Conditional statements for decision-making in code:
 ### Chapter 8: Control Flow - Switch Statements
 
 Switch statements for cleaner multi-branch logic:
+
 - `switch` syntax and cases
 - `break` statements to prevent fall-through
 - `default` case handling
@@ -317,6 +325,7 @@ Switch statements for cleaner multi-branch logic:
 ### Chapter 9: User Input
 
 Handling user interaction and input:
+
 - Reading input from the console
 - Processing user data
 - Input validation basics
@@ -325,14 +334,15 @@ Handling user interaction and input:
 ### Chapter 0: GenAI Introduction
 
 Introduction to AI and machine learning concepts:
+
 - Basic AI/ML terminology
 - Introduction to generative AI
 - Overview of AI in JavaScript
-| `45_Post_Increment.js`         | Post-increment operator behavior and examples                  |
-| `46_Pre_Increment.js`          | Pre-increment operator behavior and examples                   |
-| `47_Post_Decrement.js`         | Post-decrement operator behavior and examples                  |
-| `48_Pre_Decrement.js`          | Pre-decrement operator behavior and examples                   |
-| `49_Advance_Increment_Decrement.js` | Advanced increment/decrement patterns and use cases      |
+  | `45_Post_Increment.js` | Post-increment operator behavior and examples |
+  | `46_Pre_Increment.js` | Pre-increment operator behavior and examples |
+  | `47_Post_Decrement.js` | Post-decrement operator behavior and examples |
+  | `48_Pre_Decrement.js` | Pre-decrement operator behavior and examples |
+  | `49_Advance_Increment_Decrement.js` | Advanced increment/decrement patterns and use cases |
 
 ### Chapter 4: Advanced Concepts
 
