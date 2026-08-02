@@ -1,0 +1,654 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - banner [ref=e7]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - button "English" [ref=e12] [cursor=pointer]
+            - button "Call us" [ref=e20] [cursor=pointer]
+            - link "Contact us" [ref=e28] [cursor=pointer]:
+              - /url: /contact-us/
+            - link "Login" [ref=e33] [cursor=pointer]:
+              - /url: /corporate/login
+          - generic [ref=e38]:
+            - link [ref=e40] [cursor=pointer]:
+              - /url: /
+              - img "online-assessment" [ref=e44]
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - button "ONLINE EXAMINATIONS" [ref=e48] [cursor=pointer]
+                - button "HIRING AND L&D" [ref=e54] [cursor=pointer]
+                - link "Test Library" [ref=e60] [cursor=pointer]:
+                  - /url: /skills-assessment-test/
+                - link "PRICING" [ref=e63] [cursor=pointer]:
+                  - /url: /pricing/
+                - button "RESOURCES" [ref=e66] [cursor=pointer]
+              - generic [ref=e71]:
+                - button "REQUEST A DEMO" [ref=e73] [cursor=pointer]
+                - generic:
+                  - link:
+                    - /url: /signup/
+      - generic [ref=e75]:
+        - 'heading "Mercer | Mettl: The Global Leaders in Talent Assessment" [level=1] [ref=e76]'
+        - paragraph [ref=e77]: Conduct Customized Online Assessments on our Powerful Cloud-based Platform, Secured with Best-in-class Proctoring
+        - link [ref=e79] [cursor=pointer]:
+          - /url: /signup/
+          - button "Get a Free Trial" [ref=e80]
+    - main [ref=e81]:
+      - generic [ref=e85]:
+        - paragraph [ref=e87]: "Trusted By:"
+        - generic [ref=e88]:
+          - img "Trusted By Logo" [ref=e93]
+          - img "Trusted By Logo" [ref=e98]
+          - img "Trusted By Logo" [ref=e103]
+          - img "Trusted By Logo" [ref=e108]
+          - img "Trusted By Logo" [ref=e113]
+      - generic [ref=e116]:
+        - heading "Holistic Online Assessment Tools for Academic Institutes and Corporates" [level=2] [ref=e117]
+        - paragraph [ref=e118]: Conduct Online Exams | Conduct Virtual Assessments | Hire and Develop Talent
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - link [ref=e123] [cursor=pointer]:
+            - /url: /pre-employment-assessment-tests/
+            - generic [ref=e124]:
+              - generic [ref=e126]:
+                - img "Talent-Assessment-Solutions" [ref=e131]
+                - heading "seo" [level=3] [ref=e133]: Talent Assessment Solutions
+                - paragraph [ref=e134]: A suite of scientific assessment tools
+              - button "EXPLORE" [ref=e136]
+          - link [ref=e138] [cursor=pointer]:
+            - /url: /tech-hiring-and-skilling-platform/
+            - generic [ref=e139]:
+              - generic [ref=e141]:
+                - img "Coding-Assessment" [ref=e146]
+                - heading "seo" [level=3] [ref=e148]: Coding Assessment Solutions
+                - paragraph [ref=e149]: Build high-performing coding teams using our suite of coding tools
+              - button "EXPLORE" [ref=e151]
+          - link [ref=e153] [cursor=pointer]:
+            - /url: /virtual-remote-hiring-software/
+            - generic [ref=e154]:
+              - generic [ref=e156]:
+                - img "Hiring-Solutions" [ref=e161]
+                - heading "seo" [level=3] [ref=e163]: Hiring Solutions
+                - paragraph [ref=e164]: Assess talent holistically and automate your hiring using our digital tools
+              - button "EXPLORE" [ref=e166]
+          - link [ref=e168] [cursor=pointer]:
+            - /url: /learning-and-development-assessment-tools/
+            - generic [ref=e169]:
+              - generic [ref=e171]:
+                - img "L&D-Solutions" [ref=e176]
+                - heading "seo" [level=3] [ref=e178]: L&D Solutions
+                - paragraph [ref=e179]: Automate your L&D processes using our digital tools
+              - button "EXPLORE" [ref=e181]
+        - generic [ref=e182]:
+          - link [ref=e184] [cursor=pointer]:
+            - /url: /remote-exam-monitoring-and-invigilation/
+            - generic [ref=e185]:
+              - generic [ref=e187]:
+                - img "Online-Examination-Solution" [ref=e192]
+                - heading "seo" [level=3] [ref=e194]: Online Examination Solution
+                - paragraph [ref=e195]: Conduct online exams at scale using our suite of digital tools
+              - button "EXPLORE" [ref=e197]
+          - link [ref=e199] [cursor=pointer]:
+            - /url: /online-remote-proctoring/
+            - generic [ref=e200]:
+              - generic [ref=e202]:
+                - img "Online-Remote-Proctoring" [ref=e207]
+                - heading "seo" [level=3] [ref=e209]: Remote Proctoring Tools
+                - paragraph [ref=e210]: Maintain integrity of online exams using our suite of proctoring tools
+              - button "EXPLORE" [ref=e212]
+          - img "online-assessment" [ref=e217]
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - generic [ref=e222]:
+            - paragraph [ref=e223]: 6000+
+            - paragraph [ref=e224]: customers
+          - generic [ref=e225]:
+            - paragraph [ref=e226]: 700 +
+            - paragraph [ref=e227]: academic institutes
+          - generic [ref=e228]:
+            - paragraph [ref=e229]: 25 M+
+            - paragraph [ref=e230]: assessments annually
+          - generic [ref=e231]:
+            - paragraph [ref=e232]: 100+
+            - paragraph [ref=e233]: countries reached
+          - generic [ref=e234]:
+            - paragraph [ref=e235]: 20+
+            - paragraph [ref=e236]: languages supported
+        - button "BOOK A DEMO" [ref=e238] [cursor=pointer]
+      - generic [ref=e241]:
+        - heading "Over 6000 Clients Globally Trust Us With Their Talent Assessment" [level=2] [ref=e242]
+        - paragraph [ref=e243]: Hear what our clients have to say about our virtual talent assessment tools
+        - generic [ref=e245]:
+          - generic [ref=e248]:
+            - img "Sanjeev Phatak" [ref=e253] [cursor=pointer]
+            - img "Sweta Mishra" [ref=e258] [cursor=pointer]
+            - img "Chelsey Jones" [ref=e263] [cursor=pointer]
+            - img "Saranya Mukherjee" [ref=e268] [cursor=pointer]
+            - img "P D Jose" [ref=e273] [cursor=pointer]
+            - img "Sonal Kapur Sinha" [ref=e278] [cursor=pointer]
+            - img "Raphael Beuthner CIO" [ref=e283] [cursor=pointer]
+            - img "Dinu Nanjapa" [ref=e288] [cursor=pointer]
+            - img "Dr. Fuad Said" [ref=e293] [cursor=pointer]
+            - img "Mahesh Calavai" [ref=e298] [cursor=pointer]
+            - img "Lisa Guinovart" [ref=e303] [cursor=pointer]
+            - img "Arpan Anand" [ref=e308] [cursor=pointer]
+            - img "Dapinder Singh" [ref=e313] [cursor=pointer]
+            - img "Jasmine Calpo Assistant" [ref=e318] [cursor=pointer]
+            - img "Mercia Prince" [ref=e323] [cursor=pointer]
+            - img "Ike Marieta" [ref=e328] [cursor=pointer]
+            - img "Jitendra Singh" [ref=e333] [cursor=pointer]
+            - img "Murali Bollu" [ref=e338] [cursor=pointer]
+          - separator [ref=e339]
+          - generic [ref=e341]:
+            - generic [ref=e343]:
+              - generic [ref=e344]:
+                - generic [ref=e347]:
+                  - paragraph [ref=e348]: Mercer | Mettl came across as one of the most robust platforms for AI-based proctoring. The team was accommodative, flexible and prompt. Mercer | Mettl's team never gave 'no' as an answer. The team was always upfront about the specifications and cust
+                  - paragraph [ref=e349] [cursor=pointer]: ...read more
+                - generic [ref=e351]:
+                  - img "Sanjeev Phatak" [ref=e357]
+                  - generic [ref=e359]:
+                    - paragraph [ref=e360]: Sanjeev Phatak
+                    - paragraph [ref=e361]: Director, Centre For Management Services, AIMA
+                - link [ref=e362] [cursor=pointer]:
+                  - /url: https://mettl.com/clients/aima/
+                  - paragraph [ref=e364]: Download Case Study
+              - img "Enabling Tests for AIMA using our Online Proctoring Technology [Client Testimonial]" [ref=e370] [cursor=pointer]
+            - generic [ref=e376]:
+              - generic [ref=e377]:
+                - generic [ref=e380]:
+                  - paragraph [ref=e381]: The turnaround time has been fantastic from day one till now. It has been two years now, and we have had no complaints about the turnaround time of their account managers. We started by discussing the online assessment tool. Later on, we went on to i
+                  - paragraph [ref=e382] [cursor=pointer]: ...read more
+                - generic [ref=e384]:
+                  - img "Sweta Mishra" [ref=e390]
+                  - generic [ref=e392]:
+                    - paragraph [ref=e393]: Sweta Mishra
+                    - paragraph [ref=e394]: Director HR, IVP
+                - link [ref=e395] [cursor=pointer]:
+                  - /url: https://mettl.com/clients/ivp/
+                  - paragraph [ref=e397]: Download Case Study
+              - img "Incorporating Talent Assessments in Hiring Process for Indus Valley Partners [Client Testimonial]" [ref=e403] [cursor=pointer]
+            - generic [ref=e409]:
+              - generic [ref=e410]:
+                - paragraph [ref=e414]: Whether onboarding, sales, or customer service representation, we were guided thoroughly and nowhere did we feel lost. It made the whole experience extremely positive.
+                - generic [ref=e416]:
+                  - img "Chelsey Jones" [ref=e422]
+                  - generic [ref=e424]:
+                    - paragraph [ref=e425]: Chelsey Jones
+                    - paragraph [ref=e426]: M.A., M.Ed. Senior Manager, Federal Programs
+                - link [ref=e427] [cursor=pointer]:
+                  - /url: https://mettl.com/clients/the-washington-center/
+                  - paragraph [ref=e429]: Download Case Study
+              - img "In Conversation with The Washington Center [Client Testimonial]" [ref=e435] [cursor=pointer]
+            - generic [ref=e441]:
+              - generic [ref=e442]:
+                - generic [ref=e445]:
+                  - paragraph [ref=e446]: Mercer | Mettl's platform and the science behind it are highly intuitive and systematic for the test-takers. Customized assessments, how data is aggregated, and how you can download insightful reports directly from the system - stood out for us from
+                  - paragraph [ref=e447] [cursor=pointer]: ...read more
+                - generic [ref=e449]:
+                  - img "Saranya Mukherjee" [ref=e455]
+                  - generic [ref=e457]:
+                    - paragraph [ref=e458]: Saranya Mukherjee
+                    - paragraph [ref=e459]: Lead, Early Career Development Campus & Employer Branding Reckitt Benckiser
+                - link [ref=e460] [cursor=pointer]:
+                  - /url: https://mettl.com/clients/reckitt-benckiser/
+                  - paragraph [ref=e462]: Download Case Study
+              - img "Mercer Mettl RB Glabal Succes Stories" [ref=e468] [cursor=pointer]
+            - generic [ref=e474]:
+              - generic [ref=e475]:
+                - paragraph [ref=e479]: As the value chain of the education systems continues to get disrupted by new technologies, Mercer | Mettl is at a sweet spot in testing. I believe it is going to play an important role in the future of the education space.
+                - generic [ref=e481]:
+                  - img "P D Jose" [ref=e487]
+                  - generic [ref=e489]:
+                    - paragraph [ref=e490]: P D Jose
+                    - paragraph [ref=e491]: Chair Digital Learning, MOOCs Initiative & Strategy at IIMB
+                - link [ref=e492] [cursor=pointer]:
+                  - /url: https://mettl.com/clients/iimb/
+                  - paragraph [ref=e494]: Download Case Study
+              - img "How did Mercer | Mettl Empower IIM Bangalore to Conduct Online Exams? [Client Testimonial]" [ref=e500] [cursor=pointer]
+            - generic [ref=e506]:
+              - generic [ref=e507]:
+                - paragraph [ref=e511]: The validity of Mercer | Mettl's assessments is exceptionally robust. It enabled us to funnel people who were precisely the type we needed. Mercer | Mettl helped us to accurately identify high-potential candidates within our internal team.
+                - generic [ref=e513]:
+                  - img "Sonal Kapur Sinha" [ref=e519]
+                  - generic [ref=e521]:
+                    - paragraph [ref=e522]: Sonal Kapur Sinha
+                    - paragraph [ref=e523]: CHRO, Modern Foods
+                - link [ref=e524] [cursor=pointer]:
+                  - /url: https://mettl.com/clients/modern-foods/
+                  - paragraph [ref=e526]: Download Case Study
+              - img "Modern Foods Industry Success Story [Client Testimonial]" [ref=e532] [cursor=pointer]
+            - generic [ref=e538]:
+              - generic [ref=e539]:
+                - paragraph [ref=e543]: Now that we have used Mercer | Mettl, we will undoubtedly continue to use its platform for the rest of eternity because of our great experience.
+                - generic [ref=e545]:
+                  - img "Raphael Beuthner CIO" [ref=e551]
+                  - generic [ref=e553]:
+                    - paragraph [ref=e554]: Raphael Beuthner CIO
+                    - paragraph [ref=e555]: EBZ Business School, Germany
+                - link [ref=e556] [cursor=pointer]:
+                  - /url: https://mettl.com/clients/ebz-business-school/
+                  - paragraph [ref=e558]: Download Case Study
+              - 'img "From On-Site to Online Exams: EBZ Germany Conducts Exams Amidst the Pandemic [Client Testimonial]" [ref=e564] [cursor=pointer]'
+            - generic [ref=e570]:
+              - generic [ref=e571]:
+                - generic [ref=e574]:
+                  - paragraph [ref=e575]: We needed a robust technology partner to ensure that students connected virtually as one team. And we found Mercer | Mettl. It was also integral to our digital engagement strategy and solved students' queries across the APAC region. We used its platf
+                  - paragraph [ref=e576] [cursor=pointer]: ...read more
+                - generic [ref=e578]:
+                  - img "Dinu Nanjapa" [ref=e584]
+                  - generic [ref=e586]:
+                    - paragraph [ref=e587]: Dinu Nanjapa
+                    - paragraph [ref=e588]: Head of Student Programs, APAC Amazon
+              - img "Experience Organizing Ideathons with Mercer | Mettl - Amazon Ace Challenge [Client Testimonial]" [ref=e592] [cursor=pointer]
+            - generic [ref=e598]:
+              - generic [ref=e599]:
+                - paragraph [ref=e603]: With Mercer | Mettl, we have probably experienced the best customer service from any tech company. It has two exceptional things - its software and the more important product, its staff, which is truly an asset.
+                - generic [ref=e605]:
+                  - img "Dr. Fuad Said" [ref=e611]
+                  - generic [ref=e613]:
+                    - paragraph [ref=e614]: Dr. Fuad Said
+                    - paragraph [ref=e615]: MD, Internal Medicine, Jordan Hospital
+                - link [ref=e616] [cursor=pointer]:
+                  - /url: https://mettl.com/clients/jordan-hospital/
+                  - paragraph [ref=e618]: Download Case Study
+              - img "Watch why Jordan Hospitals Conducted their Online Tests with Mercer | Mettl [Client Testimonial]" [ref=e624] [cursor=pointer]
+            - generic [ref=e630]:
+              - generic [ref=e631]:
+                - generic [ref=e634]:
+                  - paragraph [ref=e635]: In Mercer | Mettl, we found a good combination of three core attributes that we sought in our talent assessment partnership. Its proctoring feature was brilliant, and a particular facet that stood out was the platform's flexibility in working for spe
+                  - paragraph [ref=e636] [cursor=pointer]: ...read more
+                - generic [ref=e638]:
+                  - img "Mahesh Calavai" [ref=e644]
+                  - generic [ref=e646]:
+                    - paragraph [ref=e647]: Mahesh Calavai
+                    - paragraph [ref=e648]: Chief Data & Analytics Officer, TVS Motor Group
+                - link [ref=e649] [cursor=pointer]:
+                  - /url: https://mettl.com/clients/tvs/
+                  - paragraph [ref=e651]: Download Case Study
+              - img "Customer Success Stories with TVS Motors Group [Client Testimonial]" [ref=e657] [cursor=pointer]
+            - generic [ref=e663]:
+              - generic [ref=e664]:
+                - paragraph [ref=e668]: We are considering shifting our mid-term and entrance exams completely to the online mode. Mercer | Mettl's customer service is top-notch, very responsive, and helpful in answering queries. We are delighted with the service provided.
+                - generic [ref=e670]:
+                  - img "Lisa Guinovart" [ref=e676]
+                  - generic [ref=e678]:
+                    - paragraph [ref=e679]: Lisa Guinovart
+                    - paragraph [ref=e680]: Assoc. Director, The Assessment Center, Miami Dade College
+                - link [ref=e681] [cursor=pointer]:
+                  - /url: https://mettl.com/clients/miami-dade-college/
+                  - paragraph [ref=e683]: Download Case Study
+              - img "Miami-Dade College Online Examinations Success Story [Client Testimonial]" [ref=e689] [cursor=pointer]
+            - generic [ref=e695]:
+              - generic [ref=e696]:
+                - generic [ref=e699]:
+                  - paragraph [ref=e700]: We had short timelines in which we had to scale up our workforce. From customized solutions, ease of usability, building an in-depth understanding of the client’s problem to seamless integration with our applicant tracking system, Mercer | Mettl’s as
+                  - paragraph [ref=e701] [cursor=pointer]: ...read more
+                - generic [ref=e703]:
+                  - img "Arpan Anand" [ref=e709]
+                  - generic [ref=e711]:
+                    - paragraph [ref=e712]: Arpan Anand
+                    - paragraph [ref=e713]: CHRO, Aditya Infotech Limited (CP PLUS)
+                - link [ref=e714] [cursor=pointer]:
+                  - /url: https://mettl.com/clients/cp-plus/
+                  - paragraph [ref=e716]: Download Case Study
+              - img "Building a Successful Sales Team with CP Plus [Client Testimonial]" [ref=e722] [cursor=pointer]
+            - generic [ref=e728]:
+              - generic [ref=e729]:
+                - generic [ref=e732]:
+                  - paragraph [ref=e733]: Customer Delight' summarizes our exceptional experience with Mercer | Mettl. The tool's mobile-friendliness, easy-to-consume reports, clarity with which the survey questions were designed, and the readiness to say 'YES' to customizations make 360View
+                  - paragraph [ref=e734] [cursor=pointer]: ...read more
+                - generic [ref=e736]:
+                  - img "Dapinder Singh" [ref=e742]
+                  - generic [ref=e744]:
+                    - paragraph [ref=e745]: Dapinder Singh
+                    - paragraph [ref=e746]: Senior Manager HR at Max Life Insurance
+              - img "Customer Success Stories with Max Life Insurance for 360View [Client Testimonial]" [ref=e750] [cursor=pointer]
+            - generic [ref=e756]:
+              - generic [ref=e757]:
+                - generic [ref=e760]:
+                  - paragraph [ref=e761]: Mercer | Mettl has been an excellent experience for our entire organization. It enabled a smoother adjustment to the digital world, and we plan to employ more of its services. We are certain we will continue using Mercer | Mettl’s online proctoring s
+                  - paragraph [ref=e762] [cursor=pointer]: ...read more
+                - generic [ref=e764]:
+                  - img "Jasmine Calpo Assistant" [ref=e770]
+                  - generic [ref=e772]:
+                    - paragraph [ref=e773]: Jasmine Calpo Assistant
+                    - paragraph [ref=e774]: Aptitude & Special Tests Unit Test Development Section
+              - img "Watch how CEM, Philippines Upgraded to our Examination Platform to Conduct NMAT [Client Testimonial]" [ref=e778] [cursor=pointer]
+            - generic [ref=e784]:
+              - generic [ref=e785]:
+                - paragraph [ref=e789]: Mercer | Mettl helps us host and proctor all entrance tests for undergraduate, postgraduate and Ph.D. programs. Mercer | Mettl’s team is efficient, thorough, helpful and flexible. We deeply appreciate its support and collaborative spirit.
+                - generic [ref=e791]:
+                  - img "Mercia Prince" [ref=e797]
+                  - generic [ref=e799]:
+                    - paragraph [ref=e800]: Mercia Prince
+                    - paragraph [ref=e801]: Deputy Director,Office of Admissions, Ashoka University
+                - link [ref=e802] [cursor=pointer]:
+                  - /url: https://mettl.com/clients/ashoka-university/
+                  - paragraph [ref=e804]: Download Case Study
+              - img "How did Ashoka University Make their Exams Secure & Accessible? [Client Testimonial]" [ref=e810] [cursor=pointer]
+            - generic [ref=e816]:
+              - generic [ref=e817]:
+                - paragraph [ref=e821]: Mercer | Mettl assured us of the quality and consumer service that other platforms were not offering. Security, integrity and technology were unmatched, easy to explain and understand.
+                - generic [ref=e823]:
+                  - img "Ike Marieta" [ref=e829]
+                  - generic [ref=e831]:
+                    - paragraph [ref=e832]: Ike Marieta
+                    - paragraph [ref=e833]: Director, PIP, Universitas Padjadjaran, INDONESIA
+                - link [ref=e834] [cursor=pointer]:
+                  - /url: https://mettl.com/clients/pip-unpad/
+                  - paragraph [ref=e836]: Download Case Study
+              - img "Customer Success Stories with Padjadjaran University, Indonesia [Client Testimonial]" [ref=e842] [cursor=pointer]
+            - generic [ref=e848]:
+              - generic [ref=e849]:
+                - paragraph [ref=e853]: What sets Mercer | Mettl apart is a combination of powerful, customizable technology and content expertise. Along with a robust admin panel, their team also delivers tailor-made assessments based on industry standards for the programs that we run.
+                - generic [ref=e855]:
+                  - img "Jitendra Singh" [ref=e861]
+                  - generic [ref=e863]:
+                    - paragraph [ref=e864]: Jitendra Singh
+                    - paragraph [ref=e865]: CTO, Talent Sprint
+              - img "Customer Success Stories with Talent Sprint for Our Talent Assessments [Client Testimonial]" [ref=e869] [cursor=pointer]
+            - generic [ref=e875]:
+              - generic [ref=e876]:
+                - generic [ref=e879]:
+                  - paragraph [ref=e880]: Mercer | Mettl offers a next-generation platform that empowers you to look beyond what is academically taught. We are extremely pleased with Mercer | Mettl. Its assessment platform has enabled us to tap into its vast database of questions for both ap
+                  - paragraph [ref=e881] [cursor=pointer]: ...read more
+                - generic [ref=e883]:
+                  - img "Murali Bollu" [ref=e889]
+                  - generic [ref=e891]:
+                    - paragraph [ref=e892]: Murali Bollu
+                    - paragraph [ref=e893]: CEO, ZenQ
+              - img "How did Mercer | Mettl Help ZenQ Meet Their Talent Needs? [Client Testimonial]" [ref=e897] [cursor=pointer]
+      - generic [ref=e906]:
+        - heading "Trusted by More Than 6000 Clients Worldwide" [level=2] [ref=e907]
+        - generic [ref=e908]:
+          - generic [ref=e909]:
+            - button "Education" [disabled]
+            - generic [ref=e910]:
+              - img "Logo" [ref=e916]
+              - img "Logo" [ref=e922]
+              - img "Logo" [ref=e928]
+              - img "Logo" [ref=e934]
+              - img "Logo" [ref=e940]
+              - img "Logo" [ref=e946]
+              - img "Logo" [ref=e952]
+              - img "Logo" [ref=e958]
+              - img "Logo" [ref=e964]
+          - separator [ref=e965]
+          - generic [ref=e966]:
+            - button "Corporate" [disabled]
+            - generic [ref=e967]:
+              - img "Logo" [ref=e973]
+              - img "Logo" [ref=e979]
+              - img "Logo" [ref=e985]
+              - img "Logo" [ref=e991]
+              - img "Logo" [ref=e997]
+              - img "Logo" [ref=e1003]
+              - img "Logo" [ref=e1009]
+              - img "Logo" [ref=e1015]
+              - img "Logo" [ref=e1021]
+      - generic [ref=e1023]:
+        - separator [ref=e1024]
+        - generic [ref=e1026]:
+          - generic [ref=e1027]:
+            - heading "seo" [level=2] [ref=e1030]: Selected by Gartner as a Leader in Remote Proctored Examinations
+            - img "Leader Spring" [ref=e1036]
+          - separator [ref=e1037]
+          - generic [ref=e1038]:
+            - separator [ref=e1039]
+            - generic [ref=e1042]:
+              - img "Leaf-left" [ref=e1048]
+              - paragraph [ref=e1050]: Mercer | Mettl recognized as a Global Leader in Assessment Technology by G2
+              - img "Gartner-Suggest-Software" [ref=e1057]
+              - paragraph [ref=e1059]: Software Suggest Rated Us Outstanding On Our Remote Proctoring and Online Exam Tools
+              - img "Leaf-left" [ref=e1065]
+      - generic [ref=e1068]:
+        - heading "seo" [level=2] [ref=e1069]: We offer impeccable data security standards with our online proctoring suite
+        - generic [ref=e1070]:
+          - generic [ref=e1072]:
+            - img "check" [ref=e1077]
+            - heading "Mercer | Mettl is GDPR Ready" [level=3] [ref=e1078]
+          - generic [ref=e1080]:
+            - img "check" [ref=e1085]
+            - heading "We are ISO 27001 Certified and ISO9001 Certified" [level=3] [ref=e1086]
+          - generic [ref=e1088]:
+            - img "check" [ref=e1093]
+            - heading "Localized data hosting in Europe, India & China" [level=3] [ref=e1094]
+          - generic [ref=e1096]:
+            - img "check" [ref=e1101]
+            - heading "Secure data hosting on Amazon Web Services" [level=3] [ref=e1102]
+          - generic [ref=e1104]:
+            - img "check" [ref=e1109]
+            - heading "We follow an Annual Vulnerability and Penetration Testing" [level=3] [ref=e1110]
+        - generic [ref=e1111]:
+          - generic [ref=e1114]:
+            - img "ISO-9001" [ref=e1119]
+            - paragraph [ref=e1121]: ISO 9001 CERTIFIED
+          - generic [ref=e1124]:
+            - img "ISO-27001" [ref=e1129]
+            - paragraph [ref=e1131]: ISO 27001 CERTIFIED
+          - generic [ref=e1134]:
+            - img "AICPA" [ref=e1139]
+            - paragraph [ref=e1141]: SOC2 Type 2
+          - generic [ref=e1144]:
+            - img "BPS" [ref=e1149]
+            - paragraph [ref=e1151]: BPS REGISTERED TEST
+        - link [ref=e1153] [cursor=pointer]:
+          - /url: /information-security-features/
+          - button "EXPLORE OUR INFORMATION SECURITY FEATURES" [ref=e1154]
+      - generic [ref=e1156]:
+        - heading "One Click Integration with Major ATSs, LMSs and Other Client Systems" [level=2] [ref=e1157]
+        - generic [ref=e1158]:
+          - generic [ref=e1160]:
+            - link [ref=e1161] [cursor=pointer]:
+              - /url: /partners/
+              - img "Lms" [ref=e1164]
+              - generic [ref=e1166]:
+                - heading "seo" [level=3] [ref=e1167]: LMS and HRMS Integrations
+                - paragraph [ref=e1168]: Our LMS and HRMS Partnerships Empower You to Integrate Assessments & Proctoring Into Your Systems Seamlessly
+            - link "KNOW MORE" [ref=e1170] [cursor=pointer]:
+              - /url: /partners/
+          - generic [ref=e1174]:
+            - link [ref=e1175] [cursor=pointer]:
+              - /url: /partners/
+              - img "Strategic Partnerships" [ref=e1178]
+              - generic [ref=e1180]:
+                - heading "seo" [level=3] [ref=e1181]: Strategic Partnerships
+                - paragraph [ref=e1182]: Build Strategic Partnerships with Mercer | Mettl to Unlock Incredible Business Opportunities
+            - link "KNOW MORE" [ref=e1184] [cursor=pointer]:
+              - /url: /partners/
+      - generic [ref=e1189]:
+        - heading "Why Choose Mercer | Mettl's Talent Assessments" [level=2] [ref=e1190]
+        - generic [ref=e1191]:
+          - generic [ref=e1195]:
+            - img "Customizable Solutions" [ref=e1200]
+            - heading "seo" [level=3] [ref=e1202]: Customizable Solutions
+            - paragraph [ref=e1203]: We design our solutions to suit your unique requirements.
+          - generic [ref=e1207]:
+            - img "Scalable-Solutions" [ref=e1212]
+            - heading "seo" [level=3] [ref=e1214]: Scalable Solutions
+            - paragraph [ref=e1215]: We conduct 200,000+ proctored assessments in a day.
+          - generic [ref=e1219]:
+            - img "247-Support" [ref=e1224]
+            - heading "seo" [level=3] [ref=e1226]: 24*7 Support
+            - paragraph [ref=e1227]: We have your back, always.
+          - generic [ref=e1231]:
+            - img "Proctoring" [ref=e1236]
+            - heading "seo" [level=3] [ref=e1238]: AI-powered proctoring solutions
+            - paragraph [ref=e1239]: Administer secure online exams with our AI-based remote proctoring technology.
+        - button "Try for free" [ref=e1241] [cursor=pointer]
+      - generic [ref=e1247]:
+        - generic [ref=e1248]:
+          - heading "Choose Talent Assessments to Better Assess Your Employees and Students" [level=2] [ref=e1249]
+          - generic [ref=e1250]:
+            - link [ref=e1253] [cursor=pointer]:
+              - /url: /signup/
+              - button "TRY FOR FREE" [ref=e1254]
+            - button "SPEAK TO OUR EXPERTS" [ref=e1257] [cursor=pointer]
+        - img "/assets/misc/assess-emp-stu.png" [ref=e1263]
+    - generic [ref=e1268]:
+      - heading "Trusted by more than 6000 clients worldwide" [level=2] [ref=e1269]
+      - generic [ref=e1273]:
+        - generic [ref=e1276]:
+          - textbox "Your Name *" [ref=e1277]
+          - group
+        - generic [ref=e1280]:
+          - textbox "Your Official Email *" [ref=e1281]
+          - group
+        - generic [ref=e1284]:
+          - textbox "Your Phone No. *" [ref=e1285]
+          - group
+        - button "GET STARTED" [ref=e1286] [cursor=pointer]
+      - separator [ref=e1287]
+      - generic [ref=e1288]:
+        - generic [ref=e1289]:
+          - button "COMPANY" [ref=e1290] [cursor=pointer]
+          - list [ref=e1296]:
+            - listitem [ref=e1297]:
+              - link "About Us" [ref=e1298] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e1300]:
+              - link "Our Team" [ref=e1301] [cursor=pointer]:
+                - /url: /team/
+            - listitem [ref=e1303]:
+              - link "News" [ref=e1304] [cursor=pointer]:
+                - /url: /news/
+            - listitem [ref=e1306]:
+              - link "Customers" [ref=e1307] [cursor=pointer]:
+                - /url: https://mettl.com/clients/
+            - listitem [ref=e1309]:
+              - link "Careers" [ref=e1310] [cursor=pointer]:
+                - /url: https://www.mettl.com/careers/
+            - listitem [ref=e1312]:
+              - link "Information Security" [ref=e1313] [cursor=pointer]:
+                - /url: /information-security-features/
+          - button "Partners" [ref=e1315] [cursor=pointer]
+          - list [ref=e1321]:
+            - listitem [ref=e1322]:
+              - link "Integration Partners" [ref=e1323] [cursor=pointer]:
+                - /url: /partners/
+        - generic [ref=e1325]:
+          - button "PRODUCTS" [ref=e1326] [cursor=pointer]
+          - list [ref=e1332]:
+            - listitem [ref=e1333]:
+              - link "Talent Assessment Solutions" [ref=e1334] [cursor=pointer]:
+                - /url: /pre-employment-assessment-tests/
+            - listitem [ref=e1336]:
+              - link "Coding Assessment Solutions" [ref=e1337] [cursor=pointer]:
+                - /url: /coding-tests/
+            - listitem [ref=e1339]:
+              - link "Hiring Solutions" [ref=e1340] [cursor=pointer]:
+                - /url: /lateral-hiring/
+            - listitem [ref=e1342]:
+              - link "L&D Solutions" [ref=e1343] [cursor=pointer]:
+                - /url: /learning-and-development-assessment-tools/
+            - listitem [ref=e1345]:
+              - link "Online Examination Solution" [ref=e1346] [cursor=pointer]:
+                - /url: /examination-management-system/
+            - listitem [ref=e1348]:
+              - link "Remote Proctoring Tools" [ref=e1349] [cursor=pointer]:
+                - /url: /online-remote-proctoring/
+            - listitem [ref=e1351]:
+              - link "360-degree Feedback Tool" [ref=e1352] [cursor=pointer]:
+                - /url: /360-degree-feedback-tool/
+            - listitem [ref=e1354]:
+              - link "Hackathon Tool" [ref=e1355] [cursor=pointer]:
+                - /url: /online-hackathons/
+            - listitem [ref=e1357]:
+              - link "Test Library" [ref=e1358] [cursor=pointer]:
+                - /url: /skills-assessment-test/
+        - generic [ref=e1360]:
+          - button "OTHERS" [ref=e1361] [cursor=pointer]
+          - list [ref=e1367]:
+            - listitem [ref=e1368]:
+              - link "Resources" [ref=e1369] [cursor=pointer]:
+                - /url: https://resources.mettl.com/
+            - listitem [ref=e1371]:
+              - link "Blog" [ref=e1372] [cursor=pointer]:
+                - /url: https://blog.mettl.com/
+            - listitem [ref=e1374]:
+              - link "Glossary" [ref=e1375] [cursor=pointer]:
+                - /url: https://mettl.com/glossary/
+            - listitem [ref=e1377]:
+              - link "Webinars" [ref=e1378] [cursor=pointer]:
+                - /url: https://resources.mettl.com/events/
+            - listitem [ref=e1380]:
+              - link "Help & Support" [ref=e1381] [cursor=pointer]:
+                - /url: https://support.mettl.com/portal/en/home/
+            - listitem [ref=e1383]:
+              - link "Accessibility" [ref=e1384] [cursor=pointer]:
+                - /url: https://pages.mettl.com/mercer-mettl-accessibility-statement/
+        - generic [ref=e1386]:
+          - generic [ref=e1387]:
+            - link "Linkedin" [ref=e1388] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/mettl/
+            - link "Youtube" [ref=e1391] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCGxUMYYlZx0TBksnTStk8HA
+          - text: CALL US
+          - generic [ref=e1394]:
+            - link [ref=e1395] [cursor=pointer]:
+              - /url: "tel: +91 9555114444"
+              - generic [ref=e1396]:
+                - paragraph [ref=e1397]
+                - paragraph [ref=e1400]: "Sales Enq: +91-9555-11-4444"
+            - link [ref=e1401] [cursor=pointer]:
+              - /url: "tel: +91 8047189190"
+              - generic [ref=e1402]:
+                - paragraph [ref=e1403]
+                - paragraph [ref=e1406]: "Test-Taker Support: +91-8047189190"
+            - link [ref=e1407] [cursor=pointer]:
+              - /url: mailto:mettlcontact@mercer.com
+              - generic [ref=e1408]:
+                - paragraph [ref=e1409]
+                - paragraph [ref=e1412]: mettlcontact@mercer.com
+          - generic [ref=e1413]:
+            - paragraph [ref=e1414]: INVITED FOR TEST?
+            - link [ref=e1415] [cursor=pointer]:
+              - /url: https://tests.mettl.com/
+              - paragraph [ref=e1416]: TAKE TEST
+          - link [ref=e1418] [cursor=pointer]:
+            - /url: /contact-us/
+            - button "Contact Us" [ref=e1419]
+    - generic [ref=e1421]:
+      - generic [ref=e1422]:
+        - generic [ref=e1423]:
+          - img "ASP" [ref=e1427]
+          - img "ASP" [ref=e1431]
+        - generic [ref=e1432]:
+          - generic [ref=e1433]:
+            - img "ISO-27001" [ref=e1437]
+            - img "ISO-9001" [ref=e1441]
+            - img "TUV" [ref=e1445]
+          - generic [ref=e1446]:
+            - img "NABCB" [ref=e1450]
+            - img "AICPA" [ref=e1454]
+            - img "BPS" [ref=e1458]
+      - generic [ref=e1460]:
+        - paragraph [ref=e1462]: 2026 Mercer LLC, All Rights Reserved
+        - generic [ref=e1464]:
+          - link [ref=e1465] [cursor=pointer]:
+            - /url: /terms-of-services/
+            - paragraph [ref=e1466]: Terms of Services
+          - separator [ref=e1467]
+          - link [ref=e1468] [cursor=pointer]:
+            - /url: /privacy-notice/
+            - paragraph [ref=e1469]: Privacy Notice
+          - separator [ref=e1470]
+          - link [ref=e1471] [cursor=pointer]:
+            - /url: /cookies/
+            - paragraph [ref=e1472]: Cookies
+          - separator [ref=e1473]
+          - link [ref=e1474] [cursor=pointer]:
+            - /url: https://pages.mettl.com/gdpr-compliance?utm_source=GDPR&utm_campaign=GDPR
+            - paragraph [ref=e1475]: GDPR Ready
+          - separator [ref=e1476]
+          - link [ref=e1477] [cursor=pointer]:
+            - /url: https://pages.mettl.com/policy
+            - paragraph [ref=e1478]: Policy
+          - separator [ref=e1479]
+          - link [ref=e1480] [cursor=pointer]:
+            - /url: https://pages.mettl.com/sub-processors
+            - paragraph [ref=e1481]: Sub-Processor
+          - separator [ref=e1482]
+  - alert [ref=e1483]

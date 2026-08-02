@@ -1,0 +1,4 @@
+[   15980ms] [WARNING] [quick-fetch] quickFetchScript was not included or running in Node.js environment. Falling back to stubbed implementation. @ https://static.hsappstatic.net/conversations-visitor-ui/static-1.30114/bundles/visitor.js:0
+[ 2026145ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://h.clarity.ms/collect:0
+[ 2039527ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://h.clarity.ms/collect:0
+[ 2039527ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://h.clarity.ms/collect:0

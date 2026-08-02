@@ -1,6 +1,6 @@
-# LearnPlaywrightTTA - JavaScript Learning Repository
+# LearnPlaywrightTTA - JavaScript + Playwright Learning Repository
 
-A comprehensive JavaScript learning repository covering fundamentals, concepts, and advanced topics with practical examples. This project is designed for beginners to intermediate learners who want to master JavaScript from the ground up.
+A practical learning repository for JavaScript fundamentals, control flow, and Playwright-based browser automation. It is designed for beginners to intermediate learners who want to build a strong foundation in scripting and automated UI testing.
 
 ## 📚 Project Overview
 
@@ -10,9 +10,10 @@ This repository contains structured JavaScript lessons organized by chapters, co
 - Variables (var, let, const)
 - Identifiers and literals
 - Comments and code structure
-- Functions and scope
+- Functions, scope, and closures
 - Hoisting behavior
-- And more!
+- Loop statements and decision-making patterns
+- Playwright browser automation and test setup
 
 All lessons include practical, executable examples that demonstrate key concepts.
 
@@ -21,6 +22,7 @@ All lessons include practical, executable examples that demonstrate key concepts
 - 27th June: Learned JavaScript operators and added practical examples for assignment, modulus, exponentiation, and comparison operators.
 - 9th July: Completed advanced operator topics (increment, decrement, ternary), control flow structures (if-else, switch statements), and user input handling.
 - 31st July: Added a `do...while` loop example to the learning path to demonstrate post-condition looping and guaranteed first execution.
+- 2nd August: Added new loop examples and a Playwright test workspace with a runnable browser automation setup.
 - Continued building hands-on practice files to strengthen understanding of core JavaScript concepts.
 
 ---
@@ -29,22 +31,24 @@ All lessons include practical, executable examples that demonstrate key concepts
 
 ```
 LearnPlaywrightTTA/
-├── chapter_01_Basics/                      # Beginner JavaScript Basics
+├── chapter_00_GENAI/                      # GenAI concepts and prompts
+│   └── Prompt/
+│
+├── chapter_01_Basics/                     # Beginner JavaScript basics
 │   ├── 01_Basic.js
 │   ├── 02_JS.js
 │   └── 03_JS_Commands.js
 │
-├── chapter_02_JavaScript_Concepts/         # Core JavaScript Concepts
+├── chapter_02_JavaScript_Concepts/        # Core JavaScript concepts
 │   └── 05_JS_Basics.js
 │
-├── chapter_03_Identifier_Literals/         # Identifiers & Literals
+├── chapter_03_Identifier_Literals/        # Identifiers and literals
 │   ├── 06_Identifier_Rules.js
 │   ├── 07_Identifier_Part2.js
 │   └── 08_Comments.js
 │
-│
-├── chapter_04_JavaScript_Concepts/         # Advanced Concepts
-│   ├── 09_var_let_const.js                 # ⭐ Comprehensive var/let/const guide
+├── chapter_04_JavaScript_Concepts/        # Advanced JavaScript concepts
+│   ├── 09_var_let_const.js
 │   ├── 10_functions.js
 │   ├── 11_Var.js
 │   ├── 12_Let.js
@@ -54,7 +58,7 @@ LearnPlaywrightTTA/
 │   ├── 16_Hoisting.js
 │   └── 17_Hoisting_fn.js
 │
-├── chapter_05_Literals/                    # Literals, strings, and templates
+├── chapter_05_Literals/                   # Literals, strings, and templates
 │   ├── 22_Literals.js
 │   ├── 23_null_undefined.js
 │   ├── 26_Literal_numbers.js
@@ -62,7 +66,7 @@ LearnPlaywrightTTA/
 │   ├── 28_Template_Literals.js
 │   └── 29_Backtick_Single_Double.js
 │
-├── chapter_06_Operators/                  # Operators and expressions
+├── chapter_06_Operators/                 # Operators and expressions
 │   ├── 30_Operator.js
 │   ├── 31_Assignment_op.js
 │   ├── 32_modulus.js
@@ -80,26 +84,26 @@ LearnPlaywrightTTA/
 │   ├── 48_Pre_Decrement.js
 │   └── 49_Advance_Increment_Decrement.js
 │
-├── chapter_07_if_else/                   # Conditional statements (if/else)
-│   └── [Practical examples for conditional logic]
-│
+├── chapter_07_if_else/                   # Conditional statements
 ├── chapter_08_Switch_Statement/          # Switch statement control flow
-│   └── [Practical examples for switch statements]
-│
 ├── chapter_09_User_Input/                # User input handling
-│   └── [Practical examples for reading user input]
-│
 ├── chapter_10_Loops/                     # Loop statements and repetition
 │   ├── 63_ForLoop.js
 │   ├── 64_While_Loop.js
-│   └── 65_Do_While_Loop.js
+│   ├── 65_Do_While_Loop.js
+│   ├── 66_Difference_Between_DoWhile_And_While_Loop.js
+│   └── 67_Nested_For_Loop.js
 │
-├── chapter_00_GENAI/                     # GenAI concepts introduction
-│   └── [Introduction to AI and machine learning concepts]
+├── Playwright/                           # Playwright automation workspace
+│   ├── package.json
+│   ├── playwright.config.ts
+│   └── tests/
 │
-├── JavaScript/                             # Additional resources
-│
-└── README.md                               # This file
+├── tests/                                # Root-level Playwright test samples
+├── package.json                          # Root Node.js dependencies
+├── playwright.config.ts                  # Root Playwright config
+├── README.md                             # Repository guide
+└── JavaScript/                           # Additional reference material
 ```
 
 ---
@@ -178,6 +182,24 @@ Dive deep into variables, scope, and hoisting:
 
 - `10_functions.js` - Function declaration, expression, and arrow functions
 
+### Chapter 10: Looping Constructs (Files: 63-67)
+
+Practice iteration patterns and understand the differences between loop types:
+
+- `63_ForLoop.js` - Classic for-loop iteration
+- `64_While_Loop.js` - Condition-controlled repetition
+- `65_Do_While_Loop.js` - Post-check loop execution
+- `66_Difference_Between_DoWhile_And_While_Loop.js` - Comparison between while and do...while
+- `67_Nested_For_Loop.js` - Loop nesting and multi-dimensional traversal
+
+### Playwright Automation Workspace
+
+The repository also includes browser automation examples and setup for Playwright-based testing:
+
+- `Playwright/playwright.config.ts` - Playwright configuration
+- `Playwright/tests/` - Example automation tests
+- `tests/` - Root-level sample tests
+
 ---
 
 ## ✨ Key Topics Covered
@@ -242,8 +264,20 @@ node chapter_01_Basics/01_Basic.js
 # Run the comprehensive var/let/const guide
 node chapter_04_JavaScript_Concepts/09_var_let_const.js
 
-# Run any other file
-node chapter_04_JavaScript_Concepts/17_Hoisting_fn.js
+# Run loop examples
+node chapter_10_Loops/63_ForLoop.js
+node chapter_10_Loops/66_Difference_Between_DoWhile_And_While_Loop.js
+```
+
+### Running Playwright Tests
+
+```bash
+# From the root workspace
+npx playwright test
+
+# Or use the nested Playwright folder
+cd Playwright
+npx playwright test
 ```
 
 ---

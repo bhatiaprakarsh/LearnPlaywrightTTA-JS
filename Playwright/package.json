@@ -1,0 +1,27 @@
+{
+  "name": "learnplaywrighttta",
+  "version": "1.0.0",
+  "description": "A comprehensive JavaScript learning repository covering fundamentals, concepts, and advanced topics with practical examples. This project is designed for beginners to intermediate learners who want to master JavaScript from the ground up.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report playwright-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhatiaprakarsh/LearnPlaywrightTTA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bhatiaprakarsh/LearnPlaywrightTTA/issues"
+  },
+  "homepage": "https://github.com/bhatiaprakarsh/LearnPlaywrightTTA#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1"
+  }
+}
