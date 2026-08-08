@@ -23,6 +23,7 @@ All lessons include practical, executable examples that demonstrate key concepts
 - 9th July: Completed advanced operator topics (increment, decrement, ternary), control flow structures (if-else, switch statements), and user input handling.
 - 31st July: Added a `do...while` loop example to the learning path to demonstrate post-condition looping and guaranteed first execution.
 - 2nd August: Added new loop examples and a Playwright test workspace with a runnable browser automation setup.
+- 8th August: Expanded the learning path with array exercises, advanced iteration patterns, and a dedicated Playwright project folder for browser automation practice.
 - Continued building hands-on practice files to strengthen understanding of core JavaScript concepts.
 
 ---
@@ -31,8 +32,13 @@ All lessons include practical, executable examples that demonstrate key concepts
 
 ```
 LearnPlaywrightTTA/
+├── .github/                               # GitHub config and repository metadata
 ├── chapter_00_GENAI/                      # GenAI concepts and prompts
-│   └── Prompt/
+│   ├── Prompt/
+│   ├── convert_to_formats.py
+│   ├── Test Case.csv
+│   ├── Test Plan.txt
+│   └── write_vwo_test_files.py
 │
 ├── chapter_01_Basics/                     # Beginner JavaScript basics
 │   ├── 01_Basic.js
@@ -66,7 +72,7 @@ LearnPlaywrightTTA/
 │   ├── 28_Template_Literals.js
 │   └── 29_Backtick_Single_Double.js
 │
-├── chapter_06_Operators/                 # Operators and expressions
+├── chapter_06_Operators/                  # Operators and expressions
 │   ├── 30_Operator.js
 │   ├── 31_Assignment_op.js
 │   ├── 32_modulus.js
@@ -84,26 +90,46 @@ LearnPlaywrightTTA/
 │   ├── 48_Pre_Decrement.js
 │   └── 49_Advance_Increment_Decrement.js
 │
-├── chapter_07_if_else/                   # Conditional statements
-├── chapter_08_Switch_Statement/          # Switch statement control flow
-├── chapter_09_User_Input/                # User input handling
-├── chapter_10_Loops/                     # Loop statements and repetition
+├── chapter_07_if_else/                    # Conditional statements
+├── chapter_08_Switch_Statement/           # Switch statement control flow
+├── chapter_09_User_Input/                 # User input handling
+├── chapter_10_Loops/                      # Loop statements and repetition
 │   ├── 63_ForLoop.js
 │   ├── 64_While_Loop.js
 │   ├── 65_Do_While_Loop.js
 │   ├── 66_Difference_Between_DoWhile_And_While_Loop.js
-│   └── 67_Nested_For_Loop.js
+│   ├── 67_Nested_For_Loop.js
+│   └── 68_Task.js
 │
-├── Playwright/                           # Playwright automation workspace
+├── chapter_11_Array/                      # Arrays and array operations
+│   ├── 69_Array.js
+│   ├── 70_Arrays.js
+│   ├── 71_Functions2_Array.js
+│   ├── 71_Funstions_Array.js
+│   ├── 72_Searching_Array.js
+│   ├── 73_Array_Iterate.js
+│   ├── 74_Array_Transform.js
+│   ├── 75_Array_Sort.js
+│   └── 76_Array_SLICE.js
+│
+├── Playwright/                            # Playwright automation workspace
 │   ├── package.json
 │   ├── playwright.config.ts
+│   ├── playwright-report/
+│   ├── Project_1_VWO_Login/
+│   ├── test-results/
 │   └── tests/
 │
-├── tests/                                # Root-level Playwright test samples
-├── package.json                          # Root Node.js dependencies
-├── playwright.config.ts                  # Root Playwright config
-├── README.md                             # Repository guide
-└── JavaScript/                           # Additional reference material
+├── JavaScript/                            # Additional JavaScript reference material
+├── tests/                                 # Root-level Playwright test samples
+├── package.json                           # Root Node.js dependencies
+├── playwright.config.ts                   # Root Playwright config
+├── README.md                              # Repository guide
+├── package-lock.json                      # Lockfile for installed packages
+├── playright-report/                      # Root HTML report output
+├── test-results/                          # Generated Playwright results
+├── Set-ExecutionPolicy                    # Local script execution configuration
+└── .gitignore
 ```
 
 ---
