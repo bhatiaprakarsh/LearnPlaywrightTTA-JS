@@ -1,30 +1,26 @@
 # LearnPlaywrightTTA - JavaScript + Playwright Learning Repository
 
-A practical learning repository for JavaScript fundamentals, control flow, and Playwright-based browser automation. It is designed for beginners to intermediate learners who want to build a strong foundation in scripting and automated UI testing.
+A practical learning repository for JavaScript fundamentals, browser automation, and end-to-end testing with Playwright. It is designed for beginners to intermediate learners who want to build a solid foundation in scripting, UI automation, and modern testing workflows.
 
 ## 📚 Project Overview
 
-This repository contains structured JavaScript lessons organized by chapters, covering:
+This repository includes structured JavaScript lessons, hands-on examples, and Playwright-based automation exercises covering:
 
-- JavaScript basics and commands
-- Variables (var, let, const)
-- Identifiers and literals
-- Comments and code structure
-- Functions, scope, and closures
-- Hoisting behavior
-- Loop statements and decision-making patterns
-- Playwright browser automation and test setup
+- JavaScript basics and syntax
+- Variables, scope, and hoisting
+- Operators, loops, conditionals, and arrays
+- Function design, callbacks, promises, and async/await
+- String handling and practical problem-solving exercises
+- Playwright project setup and browser automation tests
 
-All lessons include practical, executable examples that demonstrate key concepts.
+The goal is to combine theory with executable examples so learners can practice and understand real-world usage quickly.
 
 ## 📝 Progress Update
 
-- 27th June: Learned JavaScript operators and added practical examples for assignment, modulus, exponentiation, and comparison operators.
-- 9th July: Completed advanced operator topics (increment, decrement, ternary), control flow structures (if-else, switch statements), and user input handling.
-- 31st July: Added a `do...while` loop example to the learning path to demonstrate post-condition looping and guaranteed first execution.
-- 2nd August: Added new loop examples and a Playwright test workspace with a runnable browser automation setup.
-- 8th August: Expanded the learning path with array exercises, advanced iteration patterns, and a dedicated Playwright project folder for browser automation practice.
-- Continued building hands-on practice files to strengthen understanding of core JavaScript concepts.
+- Added and expanded JavaScript lessons across arrays, functions, strings, callbacks, promises, and async/await.
+- Added Playwright-based login automation examples and structured test scenarios.
+- Continued building a hands-on learning path for both JavaScript foundations and browser test automation.
+- Updated the repository documentation to better reflect the current learning structure and project organization.
 
 ---
 
@@ -33,8 +29,13 @@ All lessons include practical, executable examples that demonstrate key concepts
 ```
 LearnPlaywrightTTA/
 ├── .github/                               # GitHub config and repository metadata
-├── chapter_00_GENAI/                      # GenAI concepts and prompts
+├── .playwright-cli/                       # Playwright CLI working files
+├── chapter_00_GENAI/                      # GenAI concepts and prompt-based exercises
 │   ├── Prompt/
+│   ├── Selenium Framework/
+│   ├── Template/
+│   ├── Test Cases/
+│   ├── Test Plan/
 │   ├── convert_to_formats.py
 │   ├── Test Case.csv
 │   ├── Test Plan.txt
@@ -48,12 +49,12 @@ LearnPlaywrightTTA/
 ├── chapter_02_JavaScript_Concepts/        # Core JavaScript concepts
 │   └── 05_JS_Basics.js
 │
-├── chapter_03_Identifier_Literals/        # Identifiers and literals
+├── chapter_03_Identifier_Literals/        # Identifiers, literals, and comments
 │   ├── 06_Identifier_Rules.js
 │   ├── 07_Identifier_Part2.js
 │   └── 08_Comments.js
 │
-├── chapter_04_JavaScript_Concepts/        # Advanced JavaScript concepts
+├── chapter_04_JavaScript_Concepts/        # Variables, scope, hoisting, functions
 │   ├── 09_var_let_const.js
 │   ├── 10_functions.js
 │   ├── 11_Var.js
@@ -64,7 +65,7 @@ LearnPlaywrightTTA/
 │   ├── 16_Hoisting.js
 │   └── 17_Hoisting_fn.js
 │
-├── chapter_05_Literals/                   # Literals, strings, and templates
+├── chapter_05_Literals/                   # Literals, strings, templates, and values
 │   ├── 22_Literals.js
 │   ├── 23_null_undefined.js
 │   ├── 26_Literal_numbers.js
@@ -90,10 +91,10 @@ LearnPlaywrightTTA/
 │   ├── 48_Pre_Decrement.js
 │   └── 49_Advance_Increment_Decrement.js
 │
-├── chapter_07_if_else/                    # Conditional statements
-├── chapter_08_Switch_Statement/           # Switch statement control flow
-├── chapter_09_User_Input/                 # User input handling
-├── chapter_10_Loops/                      # Loop statements and repetition
+├── chapter_07_if_else/                    # Conditional logic examples
+├── chapter_08_Switch_Statement/           # Switch statement exercises
+├── chapter_09_User_Input/                 # Console input and user interaction
+├── chapter_10_Loops/                      # Loops and iteration practice
 │   ├── 63_ForLoop.js
 │   ├── 64_While_Loop.js
 │   ├── 65_Do_While_Loop.js
@@ -101,7 +102,7 @@ LearnPlaywrightTTA/
 │   ├── 67_Nested_For_Loop.js
 │   └── 68_Task.js
 │
-├── chapter_11_Array/                      # Arrays and array operations
+├── chapter_11_Array/                      # Arrays and array helpers
 │   ├── 69_Array.js
 │   ├── 70_Arrays.js
 │   ├── 71_Functions2_Array.js
@@ -110,27 +111,56 @@ LearnPlaywrightTTA/
 │   ├── 73_Array_Iterate.js
 │   ├── 74_Array_Transform.js
 │   ├── 75_Array_Sort.js
-│   └── 76_Array_SLICE.js
+│   ├── 76_Array_SLICE.js
+│   ├── 77_Concat.js
+│   ├── 78.Copy.js
+│   ├── 78_Checking.js
+│   ├── 79_Copy2.js
+│   └── 80_Deconstructing.js
 │
+├── chapter_12_Functions/                  # Function practice and examples
+├── chapter_14_Strings/                    # String manipulation exercises
+├── chapter_16_Callback/                   # Callback-based examples
+├── chapter_17_Promise/                    # Promise fundamentals and async patterns
+├── chapter_18_Async_Await/                # Async/await examples and scenarios
+├── JavaScript/                            # Extra JS references and notes
+├── Pattern Questions/                     # Coding pattern and interview-style practice
 ├── Playwright/                            # Playwright automation workspace
-│   ├── package.json
+│   ├── README.md
+│   ├── cheat-sheet.md
+│   ├── login-prompt.md
+│   ├── login-test-cases.md
 │   ├── playwright.config.ts
 │   ├── playwright-report/
-│   ├── Project_1_VWO_Login/
-│   ├── test-results/
-│   └── tests/
-│
-├── JavaScript/                            # Additional JavaScript reference material
+│   ├── tests/
+│   └── package.json
 ├── tests/                                 # Root-level Playwright test samples
 ├── package.json                           # Root Node.js dependencies
-├── playwright.config.ts                   # Root Playwright config
-├── README.md                              # Repository guide
 ├── package-lock.json                      # Lockfile for installed packages
-├── playright-report/                      # Root HTML report output
-├── test-results/                          # Generated Playwright results
-├── Set-ExecutionPolicy                    # Local script execution configuration
-└── .gitignore
+├── playwright.config.ts                   # Root Playwright configuration
+├── README.md                              # Repository overview and guide
+├── Set-ExecutionPolicy                    # Local script execution utility
+├── .gitignore                             # Git ignore rules
+├── playright-report/                      # Generated Playwright HTML reports
+├── test-results/                          # Generated test output
+└── .playwright-cli/                       # Local Playwright CLI metadata
 ```
+
+---
+
+## ✨ Recent Additions
+
+The repository now includes deeper practice material in:
+
+- Arrays and array transformations
+- Function-based problem solving
+- String operations and string logic
+- Callback examples
+- Promise-based workflows
+- Async/await usage patterns
+- Playwright login and automation test scenarios
+
+These additions make the project more useful for both JavaScript learning and practical UI automation practice.
 
 ---
 
