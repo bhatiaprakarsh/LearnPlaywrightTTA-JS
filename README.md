@@ -11,6 +11,8 @@ This repository includes structured JavaScript lessons, hands-on examples, and P
 - Operators, loops, conditionals, and arrays
 - Function design, callbacks, promises, and async/await
 - String handling and practical problem-solving exercises
+- ES modules, objects, classes, and object-oriented programming
+- Encapsulation and inheritance examples
 - Playwright project setup and browser automation tests
 
 The goal is to combine theory with executable examples so learners can practice and understand real-world usage quickly.
@@ -19,6 +21,8 @@ The goal is to combine theory with executable examples so learners can practice 
 
 - Added and expanded JavaScript lessons across arrays, functions, strings, callbacks, promises, and async/await.
 - Added Playwright-based login automation examples and structured test scenarios.
+- Added lessons for ES module imports and exports, objects, classes, encapsulation, and inheritance.
+- Configured the root Node.js project for ES modules with `"type": "module"`.
 - Continued building a hands-on learning path for both JavaScript foundations and browser test automation.
 - Updated the repository documentation to better reflect the current learning structure and project organization.
 
@@ -123,6 +127,11 @@ LearnPlaywrightTTA/
 ├── chapter_16_Callback/                   # Callback-based examples
 ├── chapter_17_Promise/                    # Promise fundamentals and async patterns
 ├── chapter_18_Async_Await/                # Async/await examples and scenarios
+├── chapter_19_ExportImport/                # ES module exports and imports
+├── chapter_20_Objects/                     # Object literals and object patterns
+├── chapter_21_ClassObject/                 # Classes, constructors, access, and static members
+├── chapter_22_OOPs_Encapsulation/           # Encapsulation and private state examples
+├── chapter_23_OOPs_Inheritance/            # Single and multilevel inheritance examples
 ├── JavaScript/                            # Extra JS references and notes
 ├── Pattern Questions/                     # Coding pattern and interview-style practice
 ├── Playwright/                            # Playwright automation workspace
@@ -158,6 +167,9 @@ The repository now includes deeper practice material in:
 - Callback examples
 - Promise-based workflows
 - Async/await usage patterns
+- ES module exports and imports
+- Objects, classes, constructors, and static members
+- Encapsulation and inheritance
 - Playwright login and automation test scenarios
 
 These additions make the project more useful for both JavaScript learning and practical UI automation practice.
@@ -237,6 +249,24 @@ Dive deep into variables, scope, and hoisting:
 #### **Functions**
 
 - `10_functions.js` - Function declaration, expression, and arrow functions
+
+### Chapters 19-23: Modules and Object-Oriented JavaScript
+
+Build on the JavaScript fundamentals with reusable modules and object-oriented programming:
+
+- `chapter_19_ExportImport/` - Named exports, default exports, imports, and shared utilities
+- `chapter_20_Objects/` - Object properties, methods, configuration objects, and object exercises
+- `chapter_21_ClassObject/` - Classes, constructors, public/private members, and static methods
+- `chapter_22_OOPs_Encapsulation/` - Encapsulation, private state, getters, setters, and practical problems
+- `chapter_23_OOPs_Inheritance/` - Inheritance, parent-child classes, method reuse, and overrides
+
+Run a lesson from the repository root with Node.js:
+
+```bash
+node chapter_22_OOPs_Encapsulation/171_Bank.js
+```
+
+The project uses ES modules, so module lessons use `import` and `export` syntax.
 
 ### Chapter 10: Looping Constructs (Files: 63-67)
 
