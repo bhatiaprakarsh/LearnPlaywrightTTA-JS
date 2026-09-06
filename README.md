@@ -13,6 +13,7 @@ This repository includes structured JavaScript lessons, hands-on examples, and P
 - String handling and practical problem-solving exercises
 - ES modules, objects, classes, and object-oriented programming
 - Encapsulation and inheritance examples
+- Polymorphism, OOP interview practice, and TypeScript fundamentals
 - Playwright project setup and browser automation tests
 
 The goal is to combine theory with executable examples so learners can practice and understand real-world usage quickly.
@@ -22,7 +23,9 @@ The goal is to combine theory with executable examples so learners can practice 
 - Added and expanded JavaScript lessons across arrays, functions, strings, callbacks, promises, and async/await.
 - Added Playwright-based login automation examples and structured test scenarios.
 - Added lessons for ES module imports and exports, objects, classes, encapsulation, and inheritance.
+- Added polymorphism, OOP interview exercises, and TypeScript examples.
 - Configured the root Node.js project for ES modules with `"type": "module"`.
+- Added `ts-node`, TypeScript configuration, and a Code Runner command for `.ts` files.
 - Continued building a hands-on learning path for both JavaScript foundations and browser test automation.
 - Updated the repository documentation to better reflect the current learning structure and project organization.
 
@@ -132,6 +135,9 @@ LearnPlaywrightTTA/
 ├── chapter_21_ClassObject/                 # Classes, constructors, access, and static members
 ├── chapter_22_OOPs_Encapsulation/           # Encapsulation and private state examples
 ├── chapter_23_OOPs_Inheritance/            # Single and multilevel inheritance examples
+├── chapter_24_OOPs_Polymorphism/            # Method overriding and polymorphism
+├── chapter_25_OOPs_Interview/               # OOP interview questions and exercises
+├── chapter_26_Typescript/                   # TypeScript examples and type annotations
 ├── JavaScript/                            # Extra JS references and notes
 ├── Pattern Questions/                     # Coding pattern and interview-style practice
 ├── Playwright/                            # Playwright automation workspace
@@ -170,6 +176,8 @@ The repository now includes deeper practice material in:
 - ES module exports and imports
 - Objects, classes, constructors, and static members
 - Encapsulation and inheritance
+- Polymorphism and OOP interview problem solving
+- TypeScript types, compilation, and execution
 - Playwright login and automation test scenarios
 
 These additions make the project more useful for both JavaScript learning and practical UI automation practice.
@@ -259,6 +267,24 @@ Build on the JavaScript fundamentals with reusable modules and object-oriented p
 - `chapter_21_ClassObject/` - Classes, constructors, public/private members, and static methods
 - `chapter_22_OOPs_Encapsulation/` - Encapsulation, private state, getters, setters, and practical problems
 - `chapter_23_OOPs_Inheritance/` - Inheritance, parent-child classes, method reuse, and overrides
+- `chapter_24_OOPs_Polymorphism/` - Method overriding and polymorphic behavior
+- `chapter_25_OOPs_Interview/` - OOP interview questions and coding exercises
+- `chapter_26_Typescript/` - Type annotations, functions, and TypeScript practice
+
+Run a TypeScript lesson from the repository root:
+
+```bash
+npm run ts:run -- "./chapter_26_Typescript/194.ts"
+```
+
+Compile a TypeScript file to JavaScript instead of running it directly:
+
+```bash
+npx tsc "./chapter_26_Typescript/194.ts"
+node "./chapter_26_Typescript/194.js"
+```
+
+The project uses ES modules, so the TypeScript runner uses the `ts-node/esm` loader. The generated `tsconfig.json` contains the compiler settings for the project.
 
 Run a lesson from the repository root with Node.js:
 
