@@ -1,4 +1,4 @@
-# LearnPlaywrightTTA - JavaScript + Playwright Learning Repository
+# LearnPlaywrightTTA + JS - JavaScript + Playwright Learning Repository
 
 A practical learning repository for JavaScript fundamentals, browser automation, and end-to-end testing with Playwright. It is designed for beginners to intermediate learners who want to build a solid foundation in scripting, UI automation, and modern testing workflows.
 
@@ -34,7 +34,7 @@ The goal is to combine theory with executable examples so learners can practice 
 ## 📁 Project Structure
 
 ```
-LearnPlaywrightTTA/
+LearnPlaywrightTTA + JS/
 ├── .github/                               # GitHub config and repository metadata
 ├── .playwright-cli/                       # Playwright CLI working files
 ├── chapter_00_GENAI/                      # GenAI concepts and prompt-based exercises
